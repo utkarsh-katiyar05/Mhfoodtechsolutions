@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Food Tech Solutions - Food Consulting Agency</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+
+    
+    <!-- Navbar Start -->
+    <div class="container-fluid bg-white sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-2 py-lg-0">
+                <a href="index.html" class="navbar-brand">
+                    <img class="" src="img/logo.png" alt="Logo">
+                </a>
+                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="#" class="nav-item nav-link active">Home</a>
+                        <a href="#services" class="nav-item nav-link">Services</a>
+                        <a href="#about" class="nav-item nav-link">About</a>
+                        <a href="#testimonials" class="nav-item nav-link">Clients</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">More</a>
+                            <div class="dropdown-menu bg-light rounded-0 m-0">
+                                <a href="blog.html" class="dropdown-item">Blog Article</a>
+                                <a href="faqs.html" class="dropdown-item">FAQs</a>
+                                <!-- <a href="404.html" class="dropdown-item">404 Page</a> -->
+                            </div>
+                        </div>
+                        <a href="#contact" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <!-- <div class="border-start ps-4 d-none d-lg-block">
+                        <button type="button" class="btn btn-sm p-0"><i class="fa fa-search"></i></button>
+                    </div> -->
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid px-0 mb-5">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/bannerc.jpeg" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-7 text-center">
+                                    <!-- <p class="fs-4 text-white animated zoomIn">Welcome to <strong class="text-dark">Food Tech Solutions</strong></p> -->
+                                    <h1 class="display-1 text-dark mb-4 animated zoomIn">Excellence in Food Industry</h1>
+                                    <a href="#specializations" class="btn btn-light rounded-pill py-3 px-5 animated zoomIn">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/bannerb.jpeg" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-7 text-center">
+                                    <!-- <p class="fs-4 text-white animated zoomIn">Welcome to <strong class="text-dark">TEA House</strong></p> -->
+                                    <h1 class="display-1 text-dark mb-4 animated zoomIn">Excellence in Food Industry</h1>
+                                    <a href="#specializations" class="btn btn-light rounded-pill py-3 px-5 animated zoomIn">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- Services Start -->
+    <div class="container-fluid product py-5 my-5" id="services">
+        <div class="container py-5">
+            <div class="section-title text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="fs-5 fw-medium fst-italic text-primary">Our Services</p>
+                <!-- <h1 class="display-6">Effects of food on the body</h1> -->
+            </div>
+            <div class="owl-carousel product-carousel wow">
+                <a href="" class="d-block product-item rounded">
+                    <img src="img/services/rnd.jpeg" alt="">
+                    <div class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4">
+                        <h4 class="text-primary">Research and Product Development</h4>
+                        <span class="text-body">Food Tech Solutions can assist with your research needs to pinpoint where opportunities exist within the marketplace both locally and when exporting to other countries. Food Tech Solutions specialises in designing and developing new products or extending the shelf life of existing products and can assist to bring your product to market.
+                        </span>
+                    </div>
+                </a>
+                <a href="" class="d-block product-item rounded">
+                    <img src="img/services/food-safety.jpeg" alt="">
+                    <div class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4">
+                        <h4 class="text-primary">Food Safety and Quality Assurance</h4>
+                        <span class="text-body">The food sector is ever changing and laws and technologies are constantly evolving to meet safety and regulatory requirements. Developing new food products can be a complicated process and getting the right advice and information is crucial to ensure your product is safe and satisfies the regulatory requirements.
+                        </span>
+                    </div>
+                </a>
+                <a href="" class="d-block product-item rounded">
+                    <img src="img/services/food-labelling.webp" alt="">
+                    <div class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4">
+                        <h4 class="text-primary">Food Labelling and Packaging</h4>
+                        <span class="text-body">Food Tech Solutions can assist to document labelling and artwork information that satisfies the Indian & international regulatory requirements and provides customers with the information they need. Food Tech Solutions has years of experience and can help guide you and your staff through the process by giving you advice specific to your industry. Health claims and Nutritional  claims.
+                        </span>
+                    </div>
+                </a>
+                <a href="" class="d-block product-item rounded">
+                    <img src="img/services/lab.jpeg" alt="">
+                    <div class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4">
+                        <h4 class="text-primary">Laboratory Services</h4>
+                        <span class="text-body">Laboratory setup as per ISO 17025 standard. <br>
+                            Providing testing solutions & establishing testing protocol.
+                        </span>
+                    </div>
+                </a>
+                <a href="" class="d-block product-item rounded">
+                    <img src="img/services/training.jpeg" alt="">
+                    <div class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4">
+                        <h4 class="text-primary">Training and Improvement</h4>
+                        <span class="text-body">Training as per International standards. <br>
+                            Fostac training <br>
+                            HACCP, GMP, GHP & GLP Training <br>
+                            Fire safety & First aid training                             
+                        </span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Products End -->
+
+
+    <!-- About Start -->
+    <div class="container-xxl py-5" id="about">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6">
+                    <div class="row g-3">
+                        <div class="col-6 text-end">
+                            <img class="img-fluid bg-white w-100 mb-3 wow fadeIn" data-wow-delay="0.1s" src="img/bannera.jpeg" alt="">
+                            <img class="img-fluid bg-white w-50 wow fadeIn" data-wow-delay="0.2s" src="img/bannerb.jpeg" alt="">
+                        </div>
+                        <div class="col-6">
+                            <img class="img-fluid bg-white w-50 mb-3 wow fadeIn" data-wow-delay="0.3s" src="img/bannerc.jpeg" alt="">
+                            <img class="img-fluid bg-white w-100 wow fadeIn" data-wow-delay="0.4s" src="img/bannerd.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="section-title">
+                        <p class="fs-5 fw-medium fst-italic text-primary">About Us</p>
+                        <h1 class="display-6">The success history and work of Food Tech Solutions</h1>
+                    </div>
+                    <div class="row g-3 mb-4">
+                        <div class="col-sm-4">
+                            <img class="img-fluid bg-white w-100" src="img/bannera.jpeg" alt="">
+                        </div>
+                        <div class="col-sm-8">
+                            <h5>About us: </h5>
+                            <p class="mb-0">At Food Tech Solutions we specialize in providing innovative technical and scientific solutions for the food industry. Our expert team combines knowledge in food science and engineering to enhance food quality, safety, and sustainability.</p>
+                        </div>
+                    </div>
+                    <div class="border-top mb-4"></div>
+                    <div class="row g-3">
+                        <div class="col-sm-8">
+                            <h5>Our experience:</h5>
+                            <p class="mb-0">We work closely with our clients to develop tailored solutions that streamline operations and ensure compliance with industry standards. Committed to research and development, we stay ahead of trends to empower our partners in a competitive landscape. Join us in transforming the food industry for a healthier, more efficient future.</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <img class="img-fluid bg-white w-100" src="img/bannerc.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Specializations Start -->
+    <div class="container-fluid video my-5" id="specializations">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-lg-6 py-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="py-5">
+                        <h1 class="display-6 mb-4 text-white">Our <span class="text-dark">Specializations</span></h1>
+                        <!-- <h5 class="fw-normal lh-base fst-italic text-white mb-5">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit</h5> -->
+                        <!-- Specializations -->
+                        <div class="row g-4 mb-5">
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="flex-shrink-0 btn-lg-square bg-white text-primary rounded-circle me-3">
+                                        <i class="fa fa-check"></i>
+                                    </div>
+                                    <span class="text-dark">Fruits and Vegetables processing
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="flex-shrink-0 btn-lg-square bg-white text-primary rounded-circle me-3">
+                                        <i class="fa fa-check"></i>
+                                    </div>
+                                    <span class="text-dark">Cereal / Grain processing Industries
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="flex-shrink-0 btn-lg-square bg-white text-primary rounded-circle me-3">
+                                        <i class="fa fa-check"></i>
+                                    </div>
+                                    <span class="text-dark">Dairy Processing Industry
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="flex-shrink-0 btn-lg-square bg-white text-primary rounded-circle me-3">
+                                        <i class="fa fa-check"></i>
+                                    </div>
+                                    <span class="text-dark">Dehydration, Freezing Industries
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="flex-shrink-0 btn-lg-square bg-white text-primary rounded-circle me-3">
+                                        <i class="fa fa-check"></i>
+                                    </div>
+                                    <span class="text-dark">Bakery ,Snack and confectionery Industries
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="flex-shrink-0 btn-lg-square bg-white text-primary rounded-circle me-3">
+                                        <i class="fa fa-check"></i>
+                                    </div>
+                                    <span class="text-dark">Spices and Condiments Industries
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="flex-shrink-0 btn-lg-square bg-white text-primary rounded-circle me-3">
+                                        <i class="fa fa-check"></i>
+                                    </div>
+                                    <span class="text-dark">Indian Sweets and Indian Snacks & Savouries products
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="flex-shrink-0 btn-lg-square bg-white text-primary rounded-circle me-3">
+                                        <i class="fa fa-check"></i>
+                                    </div>
+                                    <span class="text-dark">Meat, Poultry, and Marine Industries
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="flex-shrink-0 btn-lg-square bg-white text-primary rounded-circle me-3">
+                                        <i class="fa fa-check"></i>
+                                    </div>
+                                    <span class="text-dark">Sugar and sugar products
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="flex-shrink-0 btn-lg-square bg-white text-primary rounded-circle me-3">
+                                        <i class="fa fa-check"></i>
+                                    </div>
+                                    <span class="text-dark">Frozen food RTE., IQF
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="flex-shrink-0 btn-lg-square bg-white text-primary rounded-circle me-3">
+                                        <i class="fa fa-check"></i>
+                                    </div>
+                                    <span class="text-dark">Dry fruits processing
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="flex-shrink-0 btn-lg-square bg-white text-primary rounded-circle me-3">
+                                        <i class="fa fa-check"></i>
+                                    </div>
+                                    <span class="text-dark">Food laboratory setup
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="btn btn-light rounded-pill py-3 px-5" href="#article">Explore More</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="h-100 d-flex align-items-center justify-content-center" style="min-height: 300px;">
+                        <button type="button" class="btn-play" data-bs-toggle="modal"
+                            data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video End -->
+
+
+    <!-- Video Modal Start -->
+    <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel">Youtube Video</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- 16:9 aspect ratio -->
+                    <div class="ratio ratio-16x9">
+                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
+                            allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
+
+    <!-- Article Start -->
+    <div class="container-xxl py-5" id="article">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                    <img class="img-fluid" src="img/fsc.jpg" alt="">
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="section-title">
+                        <p class="fs-5 fw-medium fst-italic text-primary">Featured Acticle</p>
+                        <h1 class="display-6">Food Safety and Compliance</h1>
+                    </div>
+                    <p class="mb-4"><strong>HACCP</strong> (Hazard Analysis Critical Control Point).</p>
+                    <p class="mb-4"><strong>Regulatory Compliance: </strong>Ensuring that products meet local, national, and international food safety standards and regulations(FFSAI, US FDA,SFDA & WHO etc.)</p>
+                    <p class="mb-4"><strong>Third-Party Audits and Certifications: </strong>Preparing for and passing food safety audits, and obtaining certifications like ISO 22000, BRC, or SQF.</p>
+                    <p class="mb-4"><strong>International audit</strong>Like ISO 22000, ISO 9001, BRCGS, FSSC, FDA, CFR,GMP</p>
+                    <p class="mb-4"><strong>Client's Audit Like </strong> WalMart, Reliance ,Bigbasket, Blinkit,Zepto, Vishal Mart & Army CSD etc.</p>
+                    <a href="#testimonials" class="btn btn-primary rounded-pill py-3 px-5">Read Testimonials</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Article End -->
+
+
+
+    <!-- Store Start -->
+    <!-- <div class="container-xxl py-5">
+        <div class="container">
+            <div class="section-title text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="fs-5 fw-medium fst-italic text-primary">Online Store</p>
+                <h1 class="display-6">Want to stay healthy? Choose tea taste</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="store-item position-relative text-center">
+                        <img class="img-fluid" src="img/store-product-1.jpg" alt="">
+                        <div class="p-4">
+                            <div class="text-center mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                            </div>
+                            <h4 class="mb-3">Nature close tea</h4>
+                            <p>Aliqu diam amet diam et eos. Clita erat ipsum lorem erat ipsum lorem sit sed</p>
+                            <h4 class="text-primary">$19.00</h4>
+                        </div>
+                        <div class="store-overlay">
+                            <a href="" class="btn btn-primary rounded-pill py-2 px-4 m-2">More Detail <i class="fa fa-arrow-right ms-2"></i></a>
+                            <a href="" class="btn btn-dark rounded-pill py-2 px-4 m-2">Add to Cart <i class="fa fa-cart-plus ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="store-item position-relative text-center">
+                        <img class="img-fluid" src="img/store-product-2.jpg" alt="">
+                        <div class="p-4">
+                            <div class="text-center mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                            </div>
+                            <h4 class="mb-3">Green tea tulsi</h4>
+                            <p>Aliqu diam amet diam et eos. Clita erat ipsum lorem erat ipsum lorem sit sed</p>
+                            <h4 class="text-primary">$19.00</h4>
+                        </div>
+                        <div class="store-overlay">
+                            <a href="" class="btn btn-primary rounded-pill py-2 px-4 m-2">More Detail <i class="fa fa-arrow-right ms-2"></i></a>
+                            <a href="" class="btn btn-dark rounded-pill py-2 px-4 m-2">Add to Cart <i class="fa fa-cart-plus ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="store-item position-relative text-center">
+                        <img class="img-fluid" src="img/store-product-3.jpg" alt="">
+                        <div class="p-4">
+                            <div class="text-center mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                            </div>
+                            <h4 class="mb-3">Instant tea premix</h4>
+                            <p>Aliqu diam amet diam et eos. Clita erat ipsum lorem erat ipsum lorem sit sed</p>
+                            <h4 class="text-primary">$19.00</h4>
+                        </div>
+                        <div class="store-overlay">
+                            <a href="" class="btn btn-primary rounded-pill py-2 px-4 m-2">More Detail <i class="fa fa-arrow-right ms-2"></i></a>
+                            <a href="" class="btn btn-dark rounded-pill py-2 px-4 m-2">Add to Cart <i class="fa fa-cart-plus ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <a href="" class="btn btn-primary rounded-pill py-3 px-5">View More Products</a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Store End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid testimonial py-5 my-5" id="testimonials">
+        <div class="container py-5">
+            <div class="section-title text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="fs-5 fw-medium fst-italic text-white">Testimonial</p>
+                <h1 class="display-6">What our clients say about us</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow" data-wow-delay="0.5s">
+                <div class="testimonial-item p-4 p-lg-5">
+                    <p class="mb-4">Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo</p>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img class="img-fluid flex-shrink-0" src="img/testimonial-1.jpg" alt="">
+                        <div class="text-start ms-3">
+                            <h5>Client Name</h5>
+                            <span class="text-primary">Profession</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item p-4 p-lg-5">
+                    <p class="mb-4">Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo</p>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img class="img-fluid flex-shrink-0" src="img/testimonial-2.jpg" alt="">
+                        <div class="text-start ms-3">
+                            <h5>Client Name</h5>
+                            <span class="text-primary">Profession</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item p-4 p-lg-5">
+                    <p class="mb-4">Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo</p>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img class="img-fluid flex-shrink-0" src="img/testimonial-3.jpg" alt="">
+                        <div class="text-start ms-3">
+                            <h5>Client Name</h5>
+                            <span class="text-primary">Profession</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Contact Start -->
+    <div class="container-xxl contact py-5" id="contact">
+        <div class="container">
+            <div class="section-title text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="fs-5 fw-medium fst-italic text-primary">Contact Us</p>
+                <h1 class="display-6">Contact us right now</h1>
+            </div>
+            <div class="row justify-content-center wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-8">
+                    <!-- <p class="text-center mb-5">Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo</p> -->
+                    <div class="row g-5">
+                        <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="btn-square mx-auto mb-3">
+                                <i class="fa fa-envelope fa-2x text-white"></i>
+                            </div>
+                            <p class="mb-2"><a href="mailto:mhfoodtechsolution@gmail.com">mhfoodtechsolution@gmail.com</a></p>
+                            <!-- <p class="mb-0">support@example.com</p> -->
+                        </div>
+                        <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="btn-square mx-auto mb-3">
+                                <i class="fa fa-phone fa-2x text-white"></i>
+                            </div>
+                            <p class="mb-2"><a href="tel:+919451877097">
+                                <!-- <i class="fa fa-phone-alt text-primary me-3"></i>  -->
+                                +91 9451877097</a></p>
+                            <p class="mb-0"><a href="tel:+918127762670">
+                                <!-- <i class="fa fa-phone-alt text-primary me-3"></i>  -->
+                                +91 8127762670</a></p>
+                        </div>
+                        <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="btn-square mx-auto mb-3">
+                                <i class="fa fa-map-marker-alt fa-2x text-white"></i>
+                            </div>
+                            <p class="mb-2">Tech Zone 4, Greater Noida West</p>
+                            <p class="mb-0">UP 201301</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Start -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s" id="footer">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-primary mb-4">Our Office</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>Tech Zone 4, Greater Noida West, UP 201301</p>
+                    <p class="mb-2"><a href="tel:+919451877097"><i class="fa fa-phone-alt text-primary me-3"></i> +91 9451877097</a></p>
+                    <p class="mb-2"><a href="tel:+918127762670"><i class="fa fa-phone-alt text-primary me-3"></i> +91 8127762670</a></p>
+                    <a href="mailto:mhfoodtechsolution@gmail.com"><p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>mhfoodtechsolution@gmail.com</p></a>
+                    
+                    <div class="d-flex pt-3">
+                        <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-primary mb-4">Quick Links</h4>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Our Services</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">Support</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-primary mb-4">Business Hours</h4>
+                    <p class="mb-1">Monday - Friday</p>
+                    <h6 class="text-light">09:00 am - 07:00 pm</h6>
+                    <p class="mb-1">Saturday</p>
+                    <h6 class="text-light">09:00 am - 12:00 pm</h6>
+                    <p class="mb-1">Sunday</p>
+                    <h6 class="text-light">Closed</h6>
+                </div>
+                <form class="col-lg-3 col-md-6" method="POST" data-netlify="true">
+                    <h4 class="text-primary mb-4">Talk to Us</h4>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="name@example.com" required name="email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Your Message</label>
+                        <textarea class="form-control" id="message" rows="3" placeholder="Your message here" name="message" required></textarea>
+                    </div>
+                    <button class="btn btn-primary py-3 px-4" type="send">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="fw-medium" href="#">Food Tech Solutions</a>, All Right Reserved.
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
